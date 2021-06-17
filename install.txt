@@ -3,7 +3,7 @@
 $HASP000 OK;devinit 01c ../SOFTWARE/DOGE/DOGECICS.XMI
 HHC02245I 0:001C device initialized;sh ./submit.sh ../SOFTWARE/DOGE/01_doge_receive.jcl
 / $HASP395 DOGEXMIT ENDED;sh ./submit.sh ../SOFTWARE/DOGE/02_doge_table_compile.jcl
-/ $HASP395 TABLCOMP ENDED;sh ./submit.sh ../SOFTWARE/DOGE/03_doge_cobol_compile.jcl
-/ $HASP395 COBCOMP ENDED;sh ./submit.sh ../SOFTWARE/DOGE/04_doge_map_compile.jcl
-/ $HASP395 MAPCOMP ENDED;sh ./submit.sh ../SOFTWARE/DOGE/05_doge_edit_kicks.jcl
+/ $HASP395 TABLCOMP ENDED;sh ./submit.sh ../SOFTWARE/DOGE/03_doge_map_compile.jcl
+/ $HASP395 MAPCOMP ENDED;sh ./submit.sh ../SOFTWARE/DOGE/04_doge_cobol_compile.jcl
+/ $HASP395 COBCOMP ENDED;sh ./submit.sh ../SOFTWARE/DOGE/05_doge_edit_kicks.jcl
 # Install complete
